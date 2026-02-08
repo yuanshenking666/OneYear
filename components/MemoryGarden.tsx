@@ -13,7 +13,7 @@ const MemoryGarden: React.FC = () => {
     const y = e.clientY - rect.top;
     
     const randomIndex = Math.floor(Math.random() * 60) + 1;
-    const randomUrl = `https://raw.githubusercontent.com/yuanshenking666/OneYear/main/docs/images/photo${randomIndex}.jpg`;
+    const randomUrl = `images/photo${randomIndex}.jpg`;
     const newPhoto: GardenPhoto = {
       id: Date.now().toString(),
       x,
